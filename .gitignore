@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+# LITHOS data (CC BY-NC-SA 4.0): never commit the dataset itself.
+data/
+!data/lithos.yaml
+!data/index.csv
+# SAM2 weights + probe artifacts: reproducible via scripts, not committed.
+runs/
+*.pt
+*.pth
+*.safetensors
+smoke-test/checkpoints/
+smoke-test/hf-sam2-tiny/
+smoke-test/sam2-main/
+lithos-code/
+.DS_Store

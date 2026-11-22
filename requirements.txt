@@ -1,0 +1,20 @@
+# Demo 2: LITHOS thin-section mineral identification + SAM2.1-hiera-tiny
+# Python 3.12, CPU-only. Install torch from a CPU wheel first:
+#   pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple \
+#       --find-links https://mirrors.aliyun.com/pytorch-wheels/cpu/ "torch==2.6.0+cpu"
+# SAM2 itself is NOT on PyPI: install from source (see README §5):
+#   curl -L -o sam2.zip https://codeload.github.com/facebookresearch/sam2/zip/refs/heads/main
+#   unzip sam2.zip && SAM2_BUILD_CUDA=0 pip install --no-build-isolation -e ./sam2-main
+torch==2.6.0+cpu
+torchvision==0.21.0
+numpy==2.5.5
+pillow==13.0.0
+opencv-python-headless==5.1.0.95
+pandas
+matplotlib
+scikit-learn==1.9.1
+scipy
+streamlit==1.67.0
+transformers==5.24.0
+tqdm
+kaggle

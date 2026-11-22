@@ -1,0 +1,9 @@
+# LITHOS subset definition (Demo 2)
+# Source: Kaggle paolaruizpuentes/lithos-dataset (CC BY-NC-SA 4.0),
+# full zip kept at data/lithos-dataset.zip; only this subset is unzipped.
+# train: Fold 1, stratified by 25-class label, cap 120/class, n=2812
+# eval:  Fold 2, stratified by 25-class label, cap 40/class, n=1000
+# sam_eval: 300 of the eval grains, flagged in data/index.csv
+# Classes: official LITHOS 25-class scheme (raw 4/21/25/26 -> Other).
+# GT masks: ellipses fitted from the annotated grain axes
+# (see scripts/build_gt_masks.py) -- NOT hand-drawn boundaries.
